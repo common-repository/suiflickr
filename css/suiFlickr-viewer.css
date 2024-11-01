@@ -1,0 +1,93 @@
+#sf-ctrlbar{
+	background-color:#FFFFFF;
+	width:590px;
+	padding:2px;
+	border:1px solid #000000;
+	position:fixed;
+	top:0;
+	z-index:1;
+}
+
+/*  */
+#navigation{
+	margin:0 100px;
+}
+
+/*  */
+#sf-photos{
+	margin:50px 0 0 0;
+	z-index:0;
+}
+
+.sf-photo{
+	height:110px;
+	width:110px;
+	border:1px solid #FF0000;
+	float:left;
+	padding:0px;
+	margin:2px;
+	position:relative;
+}
+
+.sf-photo img{
+	border:0px solid #000000;
+	padding:5px;
+}
+
+.photo-checkbox{
+	position:absolute;
+	left:5px;
+	bottom:5px;
+}
+
+/*  */
+.sf-photoset{
+	height:100px;
+	width:100px;
+	border:1px solid #FF0000;
+	float:left;
+	padding:0px;
+	margin:2px;
+}
+
+.sf-photoset p{
+	position:relative;
+	left:10px;
+	bottom:10px;
+}
+
+.sf-photoset img{
+	position:relative;
+	left:12px;
+	top:2px;
+}
+
+/*  */
+#sf-options{
+	margin:50px 0 0 0;
+	z-index:0;
+}
+
+/*  */
+#sf-loading{
+	width:620px;
+	height:500px;
+	padding:0;
+	margin:0;
+	float:left;
+	background-color:#cccccc;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:2;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#sf-loading img{
+	position:relative;
+	top:200px;
+	left:200px;
+}
